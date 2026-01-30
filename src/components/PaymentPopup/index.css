@@ -1,0 +1,64 @@
+.popup-container {
+  padding: 20px;
+  width: 320px;
+  font-family: Roboto;
+}
+
+.popup-heading {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.payment-options {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.payment-options li {
+  margin-bottom: 8px;
+}
+
+.summary {
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.checkout-btn {
+  margin-top: 16px;
+  padding: 8px 14px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn {
+  margin-top: 16px;
+  padding: 8px 14px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.success-text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.close-btn {
+  padding: 6px 12px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
